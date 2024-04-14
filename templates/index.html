@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Optimism Wallet Analyzer - Q1</title>
+    
+</head>
+<body>
+    <canvas id="myInput"></canvas>
+    <div class="container">
+        <h1>Optimism Wallet Analyzer - Q1</h1>
+        <h2>Enter your wallet to review NFT purchases vs the collection</h2>
+        <h2>Data is based on Jan, Feb, and March of 2024</h2>
+        <!-- Form for submitting a wallet -->
+        <form action="/analyze" method="POST">
+            <label for="field">Enter an Optimism wallet:</label><br>
+            <input type="text" id="wallet" name="wallet" required><br><br>
+            <button type="submit">Analyze</button>
+        </form>
+    </div>
+        
+</body>
+</html>
